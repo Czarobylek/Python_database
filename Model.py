@@ -35,3 +35,5 @@ class AppUser(Base):
     manager = relationship('Department', uselist=False, foreign_keys='AppUser.fk_department')
 
 Base.metadata.create_all(engine)
+
+#asas
